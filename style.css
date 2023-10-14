@@ -48,7 +48,12 @@ body * {
 }
 
 #container {
-  width: 360px;
+  /* antes do ajuste da largura
+  width: 360px; */
+
+  /* após ajuste  largura de 100% até alnce máximo de 588px (desktop)*/
+  width: 100%;
+  max-width: 588px;
   height: 712px;
   /* border: 1px solid red; */
   margin: auto;
